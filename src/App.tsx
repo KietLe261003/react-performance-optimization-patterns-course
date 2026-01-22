@@ -14,7 +14,7 @@ function App() {
         {/* <DerrivedState /> */}
         {/* <Debouncing /> */}
         {/* <Throttle /> */}
-        <Memoization />
+        {/* <Memoization /> */}
       </div>
     </>
   )

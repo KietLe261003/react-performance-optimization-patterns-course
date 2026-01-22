@@ -20,7 +20,7 @@ const GoodMemo = () => {
       <p>Count: {count}</p>
       <button
         onClick={() => setCount(count + 1)}
-        className="px-4 py-2 bg-green-600 rounded mt-2 hover:bg-green-700"
+        className="px-4 py-2 bg-green-600 rounded mt-2 hover:bg-green-700 text-black"
       >
         Increase Count
       </button>

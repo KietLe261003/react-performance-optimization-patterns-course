@@ -23,7 +23,7 @@ const BadUseMemo = () => {
       <p>Count: {count}</p>
       <button
         onClick={() => setCount(count + 1)}
-        className="px-4 py-2 bg-red-600 rounded mt-2 hover:bg-red-700"
+        className="px-4 py-2 bg-red-600 rounded mt-2 hover:bg-red-700 text-black"
       >
         Increase Count
       </button>

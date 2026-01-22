@@ -87,7 +87,7 @@ const OptimizedExample = () => {
       {/* Sort Button */}
       <button
         onClick={toggleSortOrder}
-        className="px-4 py-2 bg-purple-600 rounded hover:bg-purple-700 mb-3"
+        className="px-4 py-2 bg-purple-600 rounded hover:bg-purple-700 mb-3 text-black"
       >
         Sort by Score: {sortOrder === "asc" ? "↑ Ascending" : "↓ Descending"}
       </button>
