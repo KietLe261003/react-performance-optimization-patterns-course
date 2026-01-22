@@ -1,5 +1,6 @@
 import Debouncing from "./page/Debouncing/Debouncing"
 import Memoization from "./page/Memoization/Memoization"
+import ReactCompiler from "./page/ReactCompiler/ReactCompiler"
 import DerrivedState from "./page/TheDerivedState/DerrivedState"
 import Throttle from "./page/Throttle/Throttle"
 
@@ -15,6 +16,7 @@ function App() {
         {/* <Debouncing /> */}
         {/* <Throttle /> */}
         {/* <Memoization /> */}
+        <ReactCompiler/>
       </div>
     </>
   )
